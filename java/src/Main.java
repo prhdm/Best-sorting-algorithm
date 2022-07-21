@@ -5,7 +5,9 @@ public class Main {
     public static void main(String[] args) {
         int countCorrectCases = 0;
         for (int i = 1; i < 100; i++) {
-            int[] array = new TestGenerator(1000*i).array;
+            TestGenerator testGenerator = new TestGenerator(i);
+            testGenerator.generateTestInSpecificRange(i);
+            int[] array = testGenerator.array;
             if (new TestAlgorithms(array).correct)
                 countCorrectCases++;
         }

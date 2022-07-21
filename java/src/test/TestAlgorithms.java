@@ -34,7 +34,7 @@ public class TestAlgorithms {
         String bestFromTest = checkBest(timeBubbleSort, timeCountSort, timeHeapSort, timeInsertionSort, timeMergeSort, timeQuickSort, timeRadixSort);
         System.out.println(Arrays.toString(array));
         printResults(bestAlgo, bestFromTest, timeBubbleSort, timeCountSort, timeHeapSort, timeInsertionSort, timeMergeSort, timeQuickSort, timeRadixSort);
-        correct = bestFromTest.equals(bestAlgo);
+        correct = bestAlgo.contains(bestFromTest);
         System.out.println("Correct: " + correct);
         System.out.println("############################################################################");
     }

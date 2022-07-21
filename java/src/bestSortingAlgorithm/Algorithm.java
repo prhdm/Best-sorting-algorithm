@@ -7,27 +7,35 @@ public class Algorithm {
     static int maxValue = 0;
     static int maxNumberOfDigits = 0;
     public static String algorithm(int[] array) {
+        numbofAscending = 0;
+        numbofDescending = 0;
+        hasNegative = false;
+        maxValue = 0;
+        maxNumberOfDigits = 0;
         dataAnalysis(array);
+        System.out.println("numbofAscending: " + numbofAscending);
+        System.out.println("numbofDescending: " + numbofDescending);
+        if (numbofAscending < array.length/2 && numbofDescending < array.length/2) {
+            return "Quick Sort";
+        }
+        if (!hasNegative) {
+            System.out.println(maxNumberOfDigits);
+            System.out.println(Math.log(array.length));
+            double nLogn = array.length * Math.log(array.length);
+            if (maxValue < nLogn) {
+                return "Count Sort";
+            }
+            else if (maxNumberOfDigits < nLogn) {
+                return "Radix Sort";
+            }
+        }
         if (numbofAscending+1 == array.length) {
             return "Insertion Sort";
         }
         if (numbofDescending+1 == array.length) {
             return "Merge Sort";
         }
-        if (!hasNegative) {
-            System.out.println(maxNumberOfDigits);
-            System.out.println(Math.log(array.length));
-            if (maxNumberOfDigits < array.length*Math.log(array.length)) {
-                return "Radix Sort";
-            } else if (maxValue < array.length) {
-                return "Count Sort";
-            }
-        }
-        if (numbofAscending < array.length/2 && numbofDescending < array.length/2) {
-            return "Quick Sort";
-        } else {
-            return "Merge Sort";
-        }
+        return "Heap Sort";
     }
 
     private static void dataAnalysis(int[] array) {
