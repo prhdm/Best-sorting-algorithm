@@ -1,4 +1,3 @@
-
 \documentclass[
 10pt, % Main document font size
 a4paper, % Paper type, use 'letterpaper' for US Letter paper
@@ -7,18 +6,22 @@ oneside, % One page layout (no page indentation)
 headinclude,footinclude, % Extra spacing for the header and footer
 BCOR5mm, % Binding correction
 ]{scrartcl}
-
+\usepackage{hyperref}
+\usepackage{lettrine}
 \input{structure.tex} 
 
 \hyphenation{Fortran hy-phen-ation} 
-\title{\normalfont\spacedallcaps{DETERMINING WHICH SORTING ALGORITHM IS SUITABLE BASE ON THE GIVEN DATA}}
+\title{\includegraphics[scale=0.2]{Sharif-Logo.png}\\\normalfont\spacedallcaps{DETERMINING THE PROPER SORTING ALGORITHM BASED ON THE GIVEN DATA}}
 
-\author{\spacedlowsmallcaps{Parham Houshmand*, Yasamin Vaziri* 
+\author{\spacedlowsmallcaps{Parham Houshmand, Yasamin Vaziri 
 } \\
-\spacedlowsmallcaps{Mahya Mottaghi* \& Elham Soleimani*}}
+\spacedlowsmallcaps{Mahya Mottaghi \& Elham Soleimani}
+}
 
-
-\date{July 2022} 
+\date{
+\spacedlowsmallcaps{Sharif University of Technology}
+\\
+July 2022 }
 
 \begin{document}
 
@@ -38,26 +41,20 @@ BCOR5mm, % Binding correction
 \setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
 
 \tableofcontents % Print the table of contents
+\newpage
+%\listoffigures % Print the list of figures
 
-\listoffigures % Print the list of figures
-
-\listoftables % Print the list of tables
+%\listoftables % Print the list of tables
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
 
-\section{Abstract} % This section will not appear in the table of contents due to the star (\section*)
-source neveshtam akharesh yademoon nare
-Sometimes the cost of sorting algorithms is very different, and finding the best sorting algorithm is a great help in reducing the time and space used for sorting.
+\section{Abstract}
+\lettrine[findent=2pt]{\textbf{T}}{ }he cost of using sorting algorithms may have a considerable difference in that finding the proper algorithm reduces time and space and improves sorting efficiency.
 There are linear sorting algorithms that need to be preprocessed before they can be used.
 The quick sort algorithm also needs the data to be unsorted and sometimes according to the structured data we have (heap, linked list) they need another special algorithm (heap and merge sort) also sometimes the data is very voluminous, and We have to use an algorithm that performs in place sorting. According to these interpretations, we perform linear pre-processing on the primary data to find the best sorting algorithm with the features we mention from each sorting algorithm.
-
-
-\let\thefootnote\relax\footnotetext{* \textit{Department of Mathematical science, Sharif University of Technology, Tehran, Iran}}
-
-
-\newpage 
+ 
 \section{Introduction}
 inja bayad kamel konim kholase ravesh khodemoono
 As there are different sorting algorithms, we know they have  
@@ -199,7 +196,10 @@ here is the plot of the growth of different algorithms with same giving input
 %------------------------------------------------
 
 \section{References}
-
+ \href{https://www.geeksforgeeks.org/}{Geeksforgeeks.org}
+ \\
+ \href{https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844}{Introduction to Algorithms clrs}
+ 
 
 
 

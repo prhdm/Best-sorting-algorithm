@@ -1,10 +1,7 @@
 package test;
 
 import bestSortingAlgorithm.Algorithm;
-import sortingAlgorithms.BubbleSort;
-import sortingAlgorithms.CountSort;
-import sortingAlgorithms.HeapSort;
-import sortingAlgorithms.RadixSort;
+import sortingAlgorithms.*;
 
 import java.util.Arrays;
 
@@ -82,21 +79,21 @@ public class TestAlgorithms {
 
     private long testQuickSort(int[] array) {
         long startTime = System.nanoTime();
-        BubbleSort.sort(array);
+        QuickSort.sort(array);
         long endTime = System.nanoTime();
         return endTime - startTime;
     }
 
     private long testMergeSort(int[] array) {
         long startTime = System.nanoTime();
-        BubbleSort.sort(array);
+        MergeSort.sort(array);
         long endTime = System.nanoTime();
         return endTime - startTime;
     }
 
     private long testInsertionSort(int[] array) {
         long startTime = System.nanoTime();
-        BubbleSort.sort(array);
+        InsertionSort.sort(array);
         long endTime = System.nanoTime();
         return endTime - startTime;
     }
