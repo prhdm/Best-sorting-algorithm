@@ -7,14 +7,13 @@ headinclude,footinclude, % Extra spacing for the header and footer
 BCOR5mm, % Binding correction
 ]{scrartcl}
 \usepackage{hyperref}
+\usepackage{graphicx} 
 \usepackage{lettrine}
 \usepackage{listings}
 \usepackage{color}
-
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
 \lstset{frame=tb,
   language=Java,
   aboveskip=3mm,
@@ -88,8 +87,8 @@ bold differences with each other and we are going to give a short summary about 
 
 \section{Methods}
 
-inja zanak ax doos dare model konim ax nemoodar jadval.  comment gozari shode bashe.
-tahlil azmayesham bayad benevisim (khoobia va badiaye algoritm khodemoon )
+
+
 \begin{enumerate}[noitemsep]
 \item different methods of sorting
 \item different techniques
@@ -158,11 +157,11 @@ For this algorithm best, average and worst case time complexity is $n+k$ where k
 \begin{enumerate}[noitemsep]
 \item in place \& out place technique
 \\
-A sorting technique is inplace if it does not use any extra memory to sort the array. 
-Among the comparison based techniques discussed, only merge sort is outplaced technique as it requires an extra array to merge the sorted subarrays. 
+A sorting technique is in place if it does not use any extra memory to sort the array. 
+Among the comparison based techniques discussed, only merge sort is outplaced technique as it requires an extra array to merge the sorted sub arrays. 
 Among the non-comparison based techniques discussed, all are outplaced techniques. Counting sort uses a counting array and bucket sort uses a hash table for sorting the array. 
 
-\item online \& offline technique
+\item on line \& off line technique
 \\
 A sorting technique is considered Online if it can accept new data while the procedure is ongoing i.e. complete data is not required to start the sorting operation. 
 Among the comparison based techniques discussed, only Insertion Sort qualifies for this because of the underlying algorithm it uses i.e. it processes the array (not just elements) from left to right and if new elements are added to the right, it doesn’t impact the ongoing operation. 
@@ -196,139 +195,91 @@ Out of non-comparison based techniques, Counting sort and Bucket sort are stable
  if it is only descending (reversed sorted)we sort with merge sort and if it is completely ascending we use insertion.
  now if it doesn't contain any negative number we check if the max value is less than nlogn we use count sort and if max number of digits is less than nlogn we return radix sort.if none of these algorithms were not the answer we choose between quick and merge sort. if number of ascending and descending numbers are less than n we use quick sort, else we return merge sort.
  \\
-Java code of our algorithm is:
-\begin{lstlisting}
-package bestSortingAlgorithm;
+The python code of the algorithm would be like:
 
-public class Algorithm {
-    static int numbofAscending = 0;
-    static int numbofDescending = 0;
-    static boolean hasNegative = false;
-    static int maxValue = 0;
-    static int maxNumberOfDigits = 0;
-    public static String algorithm(int[] array) {
-        numbofAscending = 0;
-        numbofDescending = 0;
-        hasNegative = false;
-        maxValue = 0;
-        maxNumberOfDigits = 0;
-        dataAnalysis(array);
-        System.out.println("numbofAscending: " + numbofAscending);
-        System.out.println("numbofDescending: " + numbofDescending);
-        if (numbofAscending < array.length/2 && numbofDescending < array.length/2) {
-            return "Quick Sort";
-        }
-        if (!hasNegative) {
-            System.out.println(maxNumberOfDigits);
-            System.out.println(Math.log(array.length));
-            double nLogn = array.length * Math.log(array.length);
-            if (maxValue < nLogn) {
-                return "Count Sort";
-            }
-            else if (maxNumberOfDigits < nLogn) {
-                return "Radix Sort";
-            }
-        }
-        if (numbofAscending+1 == array.length) {
-            return "Insertion Sort";
-        }
-        if (numbofDescending+1 == array.length) {
-            return "Merge Sort";
-        }
-        return "Heap Sort";
-    }
-
-    private static void dataAnalysis(int[] array) {
-        for (int i = 0; i < array.length-1; i++) {
-            if (array[i] < 0) {
-                hasNegative = true;
-            }
-            if (array[i] > array[i + 1]) {
-                numbofAscending++;
-                numbofDescending--;
-            } else if (array[i] < array[i + 1]) {
-                numbofDescending++;
-                numbofAscending--;
-            } else {
-                numbofAscending++;
-                numbofDescending++;
-            }
-            maxValue = Math.max(maxValue, array[i]);
-            maxNumberOfDigits = Math.max(maxNumberOfDigits, String.valueOf(array[i]).length());
-        }
-        maxValue = Math.max(maxValue, array[array.length-1]);
-        maxNumberOfDigits = Math.max(maxNumberOfDigits, String.valueOf(array[array.length-1]).length());
-    }
-}
-
-\end{lstlisting}
-
-and also with python it would be like:
 \begin{lstlisting}
 from math import log
-from statistics import mean
 
-is_asc = 0
-is_desc = 0
-has_negative = False
-max_value = 0
-max_number_of_digits = 0
-def pyme(array:list):
-    """
-    This function is the main function of the program.
-    It takes an array as input and returns the sorted array.
-    """
-    global is_asc, is_desc, has_negative, max_value, max_number_of_digits
-    inversions = inversionCount(array)
-    __persistData(array)
-    if inversions < len(array)*log(len(array), 2) or  is_asc+1 == len(array) and is_desc+1 == len(array) or len(array) <= 20 and len(array) > 1:
-        return "Insertion Sort"
-    elif is_desc+1 == len(array):
-        return "Merge Sort"
-    elif is_asc+1 == len(array):
-        return "Insertion Sort"
-    elif not has_negative:
-        print(max_value/len(array))
-        if max_number_of_digits < log(len(array)) and max_number_of_digits*len(array) < max_value + 3*len(array):
-            print(max_number_of_digits, log(len(array), 2))
-            return "Radix Sort"
-            
-        if max_value < len(array)*log(len(array), 2):
-            print(max_value, len(array))
-            return "Count Sort"
 
-        
-    if is_asc < len(array) and is_desc < len(array):
-            return "Quick Sort"
+def pyme(array: list):
+    """
+    This function is the implementation of the algorithm.
+    It takes an array as input and returns the best sorting algorithm.
+    """
+    """
+    The complexity of this algorithm is O(n log n).
+    we can improve the algorithm by using the following optimizations:
+    1. We can ignore the inversions because we use it for determining the best sorting algorithm on small arrays
+    and we can ignore it for large arrays.
+    2. because we use the max_value and max_number_of_digits to determine the best sorting algorithm for arrays with
+    no negative numbers, we can ignore them for arrays with negative numbers and we can just find 
+    the max number of digits by the number that has the max value.
+    """
+    is_asc, is_desc, has_negative, max_value, max_number_of_digits = __analyse(array)  # Analyse the array for
+    # finding attributes of the array
+    inversions = inversion_count(array)  # Count the inversions for Insertion Sort
+    n_log_n = len(array) * log(len(array), 2)  # Calculate the n log n
+    if inversions < n_log_n or (is_asc == len(array) - 1 and is_desc == len(array) - 1) or \
+            20 >= len(array) > 1 or is_asc == len(array) - 1:
+        return "Insertion Sort"  # If the inversions are less than n log n or
+        # the array is sorted in ascending order or if the array is small or all keys are the same we use Insertion Sort
+    if is_desc == len(array) - 1:
+        return "Merge Sort"  # If the array is sorted in descending order we use Merge Sort
+        # by test, it works better than others
+    if not has_negative:  # count sort and radix sort can only be used if the array has no negative numbers
+        if max_number_of_digits < log(len(array), 2) and max_number_of_digits * len(array) < max_value + len(array) \
+                and max_number_of_digits * len(array) < n_log_n / 2:
+            return "Radix Sort"  # for the array with bigger rang than linear and the number of digits is smaller
+            # than the biggest number of the array we use Radix Sort
+        if max_value < len(array) * log(len(array), 2):
+            return "Count Sort"  # if the max value is small count sort is better than radix sort
+    if is_asc < len(array) * 3 / 5 and is_desc < len(array) * 3 / 5:
+        return "Quick Sort"  # Quick Sort is better than Merge Sort for arrays with a lot of inversions
+        # and if the array is sorted in ascending order and descending order we use other sorts.
+        # it works better on big arrays.
     else:
-        return "Merge Sort"      
-    
-def __persistData(array):
-    global is_asc, is_desc, has_negative, max_value, max_number_of_digits
-    for i in range(len(array)-1):
+        return "Merge Sort"
+        # merge sort needs more space than quick sort and merge is better for small arrays.
+        # merge sort need to copy array every time and quick sort need to copy array only once.
+    # we didn't use heap sort because it is slower than merge sort and quick sort
+    # bubble sort is just a simple sorting algorithm that doesn't use any optimizations.
+    # bubble sort is easier to understand and it is just handy to use but by test it works slower than Insertion.
+
+
+def __analyse(array):
+    is_asc, is_desc, has_negative, max_value, max_number_of_digits = 0, 0, False, 0, 0
+    temp_asc = 0
+    temp_desc = 0
+    for i in range(len(array) - 1):
         if array[i] < 0:
             has_negative = True
-        if array[i] > array[i+1]:
-            is_asc = is_asc - 1
-            is_desc = is_desc + 1
-        elif array[i] < array[i+1]:
-            is_asc = is_asc + 1
-            is_desc = is_desc - 1
+        if array[i] >= array[i + 1]:
+            temp_asc = max(temp_asc, is_asc)
+            is_desc = temp_desc + 1
         else:
-            is_asc = is_asc + 1
-            is_desc = is_desc + 1
+            temp_asc = temp_asc + 1
+            is_desc = max(temp_desc, is_desc)
         max_value = max(array[i], max_value)
-        max_number_of_digits = max(len(str(array[i])), max_number_of_digits)   
-    max_value = max(array[len(array)-1], max_value)
-    max_number_of_digits = max(len(str(array[len(array)-1])), max_number_of_digits) 
+        max_number_of_digits = max(len(str(array[i])), max_number_of_digits)
+    is_asc = max(is_asc, temp_asc)
+    is_desc = max(is_desc, temp_desc)
+    max_value = max(array[len(array) - 1], max_value)
+    max_number_of_digits = max(len(str(array[len(array) - 1])), max_number_of_digits)
+    return is_asc, is_desc, has_negative, max_value, max_number_of_digits
 
-def inversionCount(array):
+
+def inversion_count(array):
+    """
+    This function is the implementation of the inversion algorithm.
+    It takes an array as input and returns the number of inversions.
+    """
     if len(array) <= 1:
         return 0
-    mid = len(array)//2
+    mid = len(array) // 2
     left = array[:mid]
     right = array[mid:]
-    return inversionCount(left) + inversionCount(right) + merge(left, right)
+    return inversion_count(left) + inversion_count(right) + merge(left, right)
+
 
 def merge(left, right):
     count = 0
@@ -343,25 +294,104 @@ def merge(left, right):
     return count
 
 \end{lstlisting}
+the order of the algorithm is: O(n $\log$ n)
+\\
+for more check the \href{https://github.com/prhdm/Best-sorting-algorithm}{Git hub} link.
+\\
+There you can see the Java code as well.
+\\
+Different tests are done on the link. 
+see the plots of the growth of different algorithms with same giving input from next page:
 
-%code
 
 
+ \begin{figure}[htbp]
+\centerline{\includegraphics[scale=1]{../../../../SMALLNUMMS.png} }
+\caption{\textbf{SMALL NUMBERS}}
+\label{fig}
+\end{figure}
  
 
-%----------------------------------------------------------------------------------------
-%	RESULTS AND DISCUSSION
-%----------------------------------------------------------------------------------------
+ \begin{figure}[htbp]
+\centerline{ \includegraphics[scale=1]{../../../../SORTEDNUMS.png} }
+\caption{\textbf{SORTED NUMBERS}}
+\label{fig}
+\end{figure}
+
+ \begin{figure}[htbp]
+\centerline{ \includegraphics[scale=1]{../../../../NEGATIVE NUMS.png} }
+\caption{\textbf{NEGATIVE NUMBERS}}
+\label{fig}
+\end{figure}
+
+
+ \begin{figure}[htbp]
+\centerline{\includegraphics[scale=1]{../../../../REVESREDNUMS.png} }
+\caption{\textbf{REVERSED SORTED NUMBERS}}
+\label{fig}
+\end{figure}
+
+
+ \begin{figure}[htbp]
+\centerline{ \includegraphics[scale=1]{../../../../DUPLICATENUMS.png} }
+\caption{\textbf{DUPLICATE NUMBERS}}
+\label{fig}
+\end{figure}
+
+\newpage
+
+\begin{center}
+
+\fbox{\parbox{15cm}{To explain the error of the algorithm, due to the graphs above, this might be because of the CPU, the input, data streaming type, amount of RAM conflict etc. effect the coefficients of the order which are not shown in the order, so that the efficiency will get worse (see figures).
+\\
+Also we can say that our algorithm's correctness average is between 70 to 80 \% that we discuss later }}
+\end{center}
+
+
+
 
 \section{Results and Discussion}
 
-here is the plot of the growth of different algorithms with same giving input
 
-%nemoodaro test
+we theoretically made a method to understand the proper sorting  algorithm and that was almost efficient.\\
+the algorithm checks different factors in the given data and will return the answer. we also use a test generator for making different tests and try it on our method and compare it with different sorting algorithms to see how well does it work.As an average, it's efficiency is between 70 to 80 \%.
+\\
+To see complete tests visit \href{https://github.com/prhdm/Best-sorting-algorithm}{Git hub}
+\\
+see the table below:
+\\
 
-\href{https://github.com/prhdm/Best-sorting-algorithm}{Best sorting algorithm complete Github link}
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+ factor & efficiency\\
+ \hline
+ \hline
+ sorted numbers & 73 \% \\
+ \hline
+ small numbers & 81 \% \\
+ \hline
+ reversed numbers & 87 \% \\
+ \hline
+ negative numbers & 75 \% \\
+ \hline
+ large numbers & 70 \% \\
+ \hline
+ duplicate numbers & 81 \% \\
+ \hline 
+ duplicate negative numbers & 78 \% \\
+ \hline
+ 
 
-%------------------------------------------------
+\end{tabular}
+\end{table}
+
+
+
+
+The second column is the average of doing 100 tests on the algorithm And as you can see the least efficiency is for large numbers and the most is for duplicate numbers. For more studies it's good to make the method more efficient with a linear order that works the best for every kind of input.
+
 
 \section{References}
  \href{https://www.geeksforgeeks.org/}{Geeksforgeeks.org}
