@@ -8,6 +8,29 @@ BCOR5mm, % Binding correction
 ]{scrartcl}
 \usepackage{hyperref}
 \usepackage{lettrine}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 \input{structure.tex} 
 
 \hyphenation{Fortran hy-phen-ation} 
@@ -53,22 +76,25 @@ July 2022 }
 \section{Abstract}
 \lettrine[findent=2pt]{\textbf{T}}{ }he cost of using sorting algorithms may have a considerable difference in that finding the proper algorithm reduces time and space and improves sorting efficiency.
 There are linear sorting algorithms that need to be preprocessed before they can be used.
-The quick sort algorithm also needs the data to be unsorted and sometimes according to the structured data we have (heap, linked list) they need another special algorithm (heap and merge sort) also sometimes the data is very voluminous, and We have to use an algorithm that performs in place sorting. According to these interpretations, we perform linear pre-processing on the primary data to find the best sorting algorithm with the features we mention from each sorting algorithm.
+The quick sort algorithm also needs the data to be unsorted and sometimes according to the structured data we have (heap, linked list) they need another special algorithm (heap and merge sort) also sometimes the data is very voluminous, and We have to use an algorithm that performs in place sorting. According to these interpretations, we perform linear pre-processing on the primary data to find the proper sorting algorithm with the features we mention from each sorting algorithm.
+\begin{center}
+ \emph{keywords}:algorithm, sorting, data, input, proper sorting algorithm, time complexity
+\end{center}
  
 \section{Introduction}
-inja bayad kamel konim kholase ravesh khodemoono
+
 As there are different sorting algorithms, we know they have  
-bold differences with each other and we are going to give a short summary about them. But the main reason of this paper is to construct the best sorting algorithm with given input which has the minimum time complexity no matter what the size of input is.Our algorithm firstly checks each number behind the head whether it is ascending or descending, and checks whether the number is negative or not, then it finds the largest length of the number and the largest number, then it checks its inversion and then it finds whether the inversion is larger than nlogn or not.After that the ascending should not be less than nlogn and negative.
+bold differences with each other and we are going to give a short summary about them. But the main reason of this paper is to construct the proper sorting algorithm with given input which has the minimum time complexity no matter what the size of input is.Our algorithm firstly checks each number behind the head whether it is ascending or descending, also checks whether the number is negative or not, then it finds the largest length of the number and the largest number, after that it checks its inversion and then it finds whether the inversion is larger than n$\log$ n or not. Note that for radix and count sort the ascending order should not neither be less than n$\log n$ nor negative.
 
 \section{Methods}
 
-inja zanak ax doos dare model konim ax nemoodar jadval. link githubam bayad bezarim comment gozari shode bashe.
+inja zanak ax doos dare model konim ax nemoodar jadval.  comment gozari shode bashe.
 tahlil azmayesham bayad benevisim (khoobia va badiaye algoritm khodemoon )
 \begin{enumerate}[noitemsep]
 \item different methods of sorting
 \item different techniques
 \item Analysis of sorting techniques 
-\item best sorting algorithm analysis
+\item proper sorting algorithm analysis
 \end{enumerate}
 
 %------------------------------------------------
@@ -124,7 +150,7 @@ For this algorithm best, average and worst case time complexity is $n+k$ where k
 \end{enumerate}
 
 
-\paragraph{Different Paragraph Description}  
+
 
 %------------------------------------------------
 
@@ -170,10 +196,153 @@ Out of non-comparison based techniques, Counting sort and Bucket sort are stable
  if it is only descending (reversed sorted)we sort with merge sort and if it is completely ascending we use insertion.
  now if it doesn't contain any negative number we check if the max value is less than nlogn we use count sort and if max number of digits is less than nlogn we return radix sort.if none of these algorithms were not the answer we choose between quick and merge sort. if number of ascending and descending numbers are less than n we use quick sort, else we return merge sort.
  \\
-python code of our algorithm is:
+Java code of our algorithm is:
+\begin{lstlisting}
+package bestSortingAlgorithm;
 
+public class Algorithm {
+    static int numbofAscending = 0;
+    static int numbofDescending = 0;
+    static boolean hasNegative = false;
+    static int maxValue = 0;
+    static int maxNumberOfDigits = 0;
+    public static String algorithm(int[] array) {
+        numbofAscending = 0;
+        numbofDescending = 0;
+        hasNegative = false;
+        maxValue = 0;
+        maxNumberOfDigits = 0;
+        dataAnalysis(array);
+        System.out.println("numbofAscending: " + numbofAscending);
+        System.out.println("numbofDescending: " + numbofDescending);
+        if (numbofAscending < array.length/2 && numbofDescending < array.length/2) {
+            return "Quick Sort";
+        }
+        if (!hasNegative) {
+            System.out.println(maxNumberOfDigits);
+            System.out.println(Math.log(array.length));
+            double nLogn = array.length * Math.log(array.length);
+            if (maxValue < nLogn) {
+                return "Count Sort";
+            }
+            else if (maxNumberOfDigits < nLogn) {
+                return "Radix Sort";
+            }
+        }
+        if (numbofAscending+1 == array.length) {
+            return "Insertion Sort";
+        }
+        if (numbofDescending+1 == array.length) {
+            return "Merge Sort";
+        }
+        return "Heap Sort";
+    }
 
+    private static void dataAnalysis(int[] array) {
+        for (int i = 0; i < array.length-1; i++) {
+            if (array[i] < 0) {
+                hasNegative = true;
+            }
+            if (array[i] > array[i + 1]) {
+                numbofAscending++;
+                numbofDescending--;
+            } else if (array[i] < array[i + 1]) {
+                numbofDescending++;
+                numbofAscending--;
+            } else {
+                numbofAscending++;
+                numbofDescending++;
+            }
+            maxValue = Math.max(maxValue, array[i]);
+            maxNumberOfDigits = Math.max(maxNumberOfDigits, String.valueOf(array[i]).length());
+        }
+        maxValue = Math.max(maxValue, array[array.length-1]);
+        maxNumberOfDigits = Math.max(maxNumberOfDigits, String.valueOf(array[array.length-1]).length());
+    }
+}
 
+\end{lstlisting}
+
+and also with python it would be like:
+\begin{lstlisting}
+from math import log
+from statistics import mean
+
+is_asc = 0
+is_desc = 0
+has_negative = False
+max_value = 0
+max_number_of_digits = 0
+def pyme(array:list):
+    """
+    This function is the main function of the program.
+    It takes an array as input and returns the sorted array.
+    """
+    global is_asc, is_desc, has_negative, max_value, max_number_of_digits
+    inversions = inversionCount(array)
+    __persistData(array)
+    if inversions < len(array)*log(len(array), 2) or  is_asc+1 == len(array) and is_desc+1 == len(array) or len(array) <= 20 and len(array) > 1:
+        return "Insertion Sort"
+    elif is_desc+1 == len(array):
+        return "Merge Sort"
+    elif is_asc+1 == len(array):
+        return "Insertion Sort"
+    elif not has_negative:
+        print(max_value/len(array))
+        if max_number_of_digits < log(len(array)) and max_number_of_digits*len(array) < max_value + 3*len(array):
+            print(max_number_of_digits, log(len(array), 2))
+            return "Radix Sort"
+            
+        if max_value < len(array)*log(len(array), 2):
+            print(max_value, len(array))
+            return "Count Sort"
+
+        
+    if is_asc < len(array) and is_desc < len(array):
+            return "Quick Sort"
+    else:
+        return "Merge Sort"      
+    
+def __persistData(array):
+    global is_asc, is_desc, has_negative, max_value, max_number_of_digits
+    for i in range(len(array)-1):
+        if array[i] < 0:
+            has_negative = True
+        if array[i] > array[i+1]:
+            is_asc = is_asc - 1
+            is_desc = is_desc + 1
+        elif array[i] < array[i+1]:
+            is_asc = is_asc + 1
+            is_desc = is_desc - 1
+        else:
+            is_asc = is_asc + 1
+            is_desc = is_desc + 1
+        max_value = max(array[i], max_value)
+        max_number_of_digits = max(len(str(array[i])), max_number_of_digits)   
+    max_value = max(array[len(array)-1], max_value)
+    max_number_of_digits = max(len(str(array[len(array)-1])), max_number_of_digits) 
+
+def inversionCount(array):
+    if len(array) <= 1:
+        return 0
+    mid = len(array)//2
+    left = array[:mid]
+    right = array[mid:]
+    return inversionCount(left) + inversionCount(right) + merge(left, right)
+
+def merge(left, right):
+    count = 0
+    i = 0
+    j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            i += 1
+        else:
+            count += len(left) - i
+            j += 1
+    return count
+
+\end{lstlisting}
 
 %code
 
@@ -190,8 +359,7 @@ here is the plot of the growth of different algorithms with same giving input
 
 %nemoodaro test
 
-
-
+\href{https://github.com/prhdm/Best-sorting-algorithm}{Best sorting algorithm complete Github link}
 
 %------------------------------------------------
 
@@ -201,8 +369,17 @@ here is the plot of the growth of different algorithms with same giving input
  \href{https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844}{Introduction to Algorithms clrs}
  
 
-
-
+\paragraph{Team contribution} :
+\\
+Parham Houshmand:25 \%
+\\
+Yasamin Vaziri:25 \%
+\\
+Mahya Mottaghi:25 \% 
+\\
+Elham Soleimani:25 \%
+\\
+all participated in discussing problems,paper writing and coding.
 \label{fig:esempio}
 
 

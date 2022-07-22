@@ -1,0 +1,1188 @@
+*************************************************
+Merge Sort Running time: 0.001288 milliseconds
+Insertion Sort Running time: 0.001336 milliseconds
+Bubble Sort Running time: 0.002002 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.002242 milliseconds
+Quick Sort Running time: 0.001478 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Merge Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 0
+*************************************************
+*************************************************
+Merge Sort Running time: 0.0034799999999999996 milliseconds
+Insertion Sort Running time: 0.002194 milliseconds
+Bubble Sort Running time: 0.002622 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.0031 milliseconds
+Quick Sort Running time: 0.0034340000000000004 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Insertion Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 1
+*************************************************
+*************************************************
+Merge Sort Running time: 0.005626 milliseconds
+Insertion Sort Running time: 0.002956 milliseconds
+Bubble Sort Running time: 0.003862 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.006342 milliseconds
+Quick Sort Running time: 0.004054 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Insertion Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 2
+*************************************************
+*************************************************
+Merge Sort Running time: 0.008822 milliseconds
+Insertion Sort Running time: 0.004386 milliseconds
+Bubble Sort Running time: 0.006198 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.010395999999999999 milliseconds
+Quick Sort Running time: 0.007582 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Insertion Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 3
+*************************************************
+*************************************************
+Merge Sort Running time: 0.012922 milliseconds
+Insertion Sort Running time: 0.010395999999999999 milliseconds
+Bubble Sort Running time: 0.010634000000000001 milliseconds
+Count Sort Running time: 0.037718 milliseconds
+Heap Sort Running time: 0.014496 milliseconds
+Quick Sort Running time: 0.010538 milliseconds
+Radix Sort Running time: 0.037814 milliseconds
+Best is Insertion Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 4
+*************************************************
+*************************************************
+Merge Sort Running time: 0.017929999999999998 milliseconds
+Insertion Sort Running time: 0.011491999999999999 milliseconds
+Bubble Sort Running time: 0.017548 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.023984 milliseconds
+Quick Sort Running time: 0.013304 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Insertion Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.025702000000000003 milliseconds
+Insertion Sort Running time: 0.023174 milliseconds
+Bubble Sort Running time: 0.031566 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.030326 milliseconds
+Quick Sort Running time: 0.018788 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.039148 milliseconds
+Insertion Sort Running time: 0.034332 milliseconds
+Bubble Sort Running time: 0.047636 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.039911999999999996 milliseconds
+Quick Sort Running time: 0.023366 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.04387 milliseconds
+Insertion Sort Running time: 0.054074 milliseconds
+Bubble Sort Running time: 0.074768 milliseconds
+Count Sort Running time: 0.161028 milliseconds
+Heap Sort Running time: 0.051927999999999995 milliseconds
+Quick Sort Running time: 0.030994 milliseconds
+Radix Sort Running time: 0.156022 milliseconds
+Best is Quick Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.052596 milliseconds
+Insertion Sort Running time: 0.07801 milliseconds
+Bubble Sort Running time: 0.11157999999999998 milliseconds
+Count Sort Running time: 0.161124 milliseconds
+Heap Sort Running time: 0.065898 milliseconds
+Quick Sort Running time: 0.0381 milliseconds
+Radix Sort Running time: 0.15788 milliseconds
+Best is Quick Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.066232 milliseconds
+Insertion Sort Running time: 0.12021 milliseconds
+Bubble Sort Running time: 0.160456 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.082398 milliseconds
+Quick Sort Running time: 0.045441999999999996 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Insertion Sort
+number of correct cases: 5
+*************************************************
+*************************************************
+Merge Sort Running time: 0.07925 milliseconds
+Insertion Sort Running time: 0.16241 milliseconds
+Bubble Sort Running time: 0.216866 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.102664 milliseconds
+Quick Sort Running time: 0.053405999999999995 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 6
+*************************************************
+*************************************************
+Merge Sort Running time: 0.094796 milliseconds
+Insertion Sort Running time: 0.20851999999999998 milliseconds
+Bubble Sort Running time: 0.29273 milliseconds
+Count Sort Running time: 0.323582 milliseconds
+Heap Sort Running time: 0.122928 milliseconds
+Quick Sort Running time: 0.06790199999999999 milliseconds
+Radix Sort Running time: 0.321818 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 7
+*************************************************
+*************************************************
+Merge Sort Running time: 0.113534 milliseconds
+Insertion Sort Running time: 0.256968 milliseconds
+Bubble Sort Running time: 0.36587800000000004 milliseconds
+Count Sort Running time: 0.32525 milliseconds
+Heap Sort Running time: 0.147438 milliseconds
+Quick Sort Running time: 0.076294 milliseconds
+Radix Sort Running time: 0.322198 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 8
+*************************************************
+*************************************************
+Merge Sort Running time: 0.13299 milliseconds
+Insertion Sort Running time: 0.346708 milliseconds
+Bubble Sort Running time: 0.48136799999999996 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.172234 milliseconds
+Quick Sort Running time: 0.08921599999999999 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 9
+*************************************************
+*************************************************
+Merge Sort Running time: 0.14977400000000002 milliseconds
+Insertion Sort Running time: 0.443888 milliseconds
+Bubble Sort Running time: 0.6235120000000001 milliseconds
+Count Sort Running time: 0.57187 milliseconds
+Heap Sort Running time: 0.201654 milliseconds
+Quick Sort Running time: 0.10924400000000001 milliseconds
+Radix Sort Running time: 0.570392 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 10
+*************************************************
+*************************************************
+Merge Sort Running time: 0.173854 milliseconds
+Insertion Sort Running time: 0.57106 milliseconds
+Bubble Sort Running time: 0.78311 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.23054999999999998 milliseconds
+Quick Sort Running time: 0.12374 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 11
+*************************************************
+*************************************************
+Merge Sort Running time: 0.196886 milliseconds
+Insertion Sort Running time: 0.697518 milliseconds
+Bubble Sort Running time: 0.975848 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.263166 milliseconds
+Quick Sort Running time: 0.14085799999999998 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 12
+*************************************************
+*************************************************
+Merge Sort Running time: 0.216246 milliseconds
+Insertion Sort Running time: 0.8810520000000001 milliseconds
+Bubble Sort Running time: 1.216794 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.29559199999999997 milliseconds
+Quick Sort Running time: 0.15845199999999998 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 13
+*************************************************
+*************************************************
+Merge Sort Running time: 0.243998 milliseconds
+Insertion Sort Running time: 1.0520939999999999 milliseconds
+Bubble Sort Running time: 1.462364 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.33598 milliseconds
+Quick Sort Running time: 0.181436 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 14
+*************************************************
+*************************************************
+Merge Sort Running time: 0.275708 milliseconds
+Insertion Sort Running time: 1.2557019999999999 milliseconds
+Bubble Sort Running time: 1.7531400000000001 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.36831 milliseconds
+Quick Sort Running time: 0.199986 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 15
+*************************************************
+*************************************************
+Merge Sort Running time: 0.30651 milliseconds
+Insertion Sort Running time: 1.531458 milliseconds
+Bubble Sort Running time: 2.125692 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.40865 milliseconds
+Quick Sort Running time: 0.23536600000000002 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 16
+*************************************************
+*************************************************
+Merge Sort Running time: 0.34570599999999996 milliseconds
+Insertion Sort Running time: 1.853322 milliseconds
+Bubble Sort Running time: 2.571154 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.46806400000000004 milliseconds
+Quick Sort Running time: 0.25382 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 17
+*************************************************
+*************************************************
+Merge Sort Running time: 0.372696 milliseconds
+Insertion Sort Running time: 2.167892 milliseconds
+Bubble Sort Running time: 2.99797 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.509834 milliseconds
+Quick Sort Running time: 0.281572 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 18
+*************************************************
+*************************************************
+Merge Sort Running time: 0.411224 milliseconds
+Insertion Sort Running time: 2.626706 milliseconds
+Bubble Sort Running time: 3.572988 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.5611900000000001 milliseconds
+Quick Sort Running time: 0.306892 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 19
+*************************************************
+*************************************************
+Merge Sort Running time: 0.44312399999999996 milliseconds
+Insertion Sort Running time: 3.0262000000000002 milliseconds
+Bubble Sort Running time: 4.112292 milliseconds
+Count Sort Running time: 1.2108320000000001 milliseconds
+Heap Sort Running time: 0.608158 milliseconds
+Quick Sort Running time: 0.338268 milliseconds
+Radix Sort Running time: 1.2129780000000001 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 20
+*************************************************
+*************************************************
+Merge Sort Running time: 0.479888 milliseconds
+Insertion Sort Running time: 3.4108159999999996 milliseconds
+Bubble Sort Running time: 4.75769 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.673056 milliseconds
+Quick Sort Running time: 0.371886 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 21
+*************************************************
+*************************************************
+Merge Sort Running time: 0.5272859999999999 milliseconds
+Insertion Sort Running time: 3.9636620000000002 milliseconds
+Bubble Sort Running time: 5.483102000000001 milliseconds
+Count Sort Running time: 1.969386 milliseconds
+Heap Sort Running time: 0.726938 milliseconds
+Quick Sort Running time: 0.41132 milliseconds
+Radix Sort Running time: 1.95403 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 22
+*************************************************
+*************************************************
+Merge Sort Running time: 0.561666 milliseconds
+Insertion Sort Running time: 4.5719140000000005 milliseconds
+Bubble Sort Running time: 6.3234319999999995 milliseconds
+Count Sort Running time: 1.99356 milliseconds
+Heap Sort Running time: 0.7865420000000001 milliseconds
+Quick Sort Running time: 0.436354 milliseconds
+Radix Sort Running time: 1.992512 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 23
+*************************************************
+*************************************************
+Merge Sort Running time: 0.606822 milliseconds
+Insertion Sort Running time: 5.389596 milliseconds
+Bubble Sort Running time: 7.319164000000001 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.8590220000000001 milliseconds
+Quick Sort Running time: 0.47183 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 24
+*************************************************
+*************************************************
+Merge Sort Running time: 0.656558 milliseconds
+Insertion Sort Running time: 6.207562 milliseconds
+Bubble Sort Running time: 8.465766 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.9388920000000001 milliseconds
+Quick Sort Running time: 0.514126 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 25
+*************************************************
+*************************************************
+Merge Sort Running time: 0.700856 milliseconds
+Insertion Sort Running time: 6.912184000000001 milliseconds
+Bubble Sort Running time: 9.482956 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 0.9940619999999999 milliseconds
+Quick Sort Running time: 0.550366 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 26
+*************************************************
+*************************************************
+Merge Sort Running time: 0.7582180000000001 milliseconds
+Insertion Sort Running time: 8.144808000000001 milliseconds
+Bubble Sort Running time: 10.876225999999999 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 1.066638 milliseconds
+Quick Sort Running time: 0.588704 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 27
+*************************************************
+*************************************************
+Merge Sort Running time: 0.8151999999999999 milliseconds
+Insertion Sort Running time: 8.939838 milliseconds
+Bubble Sort Running time: 12.154532 milliseconds
+Count Sort Running time: 2.662372 milliseconds
+Heap Sort Running time: 1.130962 milliseconds
+Quick Sort Running time: 0.635672 milliseconds
+Radix Sort Running time: 2.619648 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 28
+*************************************************
+*************************************************
+Merge Sort Running time: 0.863838 milliseconds
+Insertion Sort Running time: 10.113668 milliseconds
+Bubble Sort Running time: 13.852454 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 1.2188919999999999 milliseconds
+Quick Sort Running time: 0.691652 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 29
+*************************************************
+*************************************************
+Merge Sort Running time: 0.914716 milliseconds
+Insertion Sort Running time: 11.418582 milliseconds
+Bubble Sort Running time: 15.368844000000001 milliseconds
+Count Sort Running time: 3.142118 milliseconds
+Heap Sort Running time: 1.283168 milliseconds
+Quick Sort Running time: 0.717544 milliseconds
+Radix Sort Running time: 3.12028 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 30
+*************************************************
+*************************************************
+Merge Sort Running time: 0.9724619999999999 milliseconds
+Insertion Sort Running time: 12.902642 milliseconds
+Bubble Sort Running time: 17.227316 milliseconds
+Count Sort Running time: 3.629684 milliseconds
+Heap Sort Running time: 1.39246 milliseconds
+Quick Sort Running time: 0.7993699999999999 milliseconds
+Radix Sort Running time: 3.598356 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 31
+*************************************************
+*************************************************
+Merge Sort Running time: 1.037026 milliseconds
+Insertion Sort Running time: 14.34145 milliseconds
+Bubble Sort Running time: 19.09995 milliseconds
+Count Sort Running time: 3.570032 milliseconds
+Heap Sort Running time: 1.453972 milliseconds
+Quick Sort Running time: 0.818062 milliseconds
+Radix Sort Running time: 3.531552 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 32
+*************************************************
+*************************************************
+Merge Sort Running time: 1.0885719999999999 milliseconds
+Insertion Sort Running time: 15.80844 milliseconds
+Bubble Sort Running time: 21.49458 milliseconds
+Count Sort Running time: 3.6091320000000002 milliseconds
+Heap Sort Running time: 1.542854 milliseconds
+Quick Sort Running time: 0.8836259999999999 milliseconds
+Radix Sort Running time: 3.571796 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 33
+*************************************************
+*************************************************
+Merge Sort Running time: 1.146126 milliseconds
+Insertion Sort Running time: 17.541266 milliseconds
+Bubble Sort Running time: 23.52624 milliseconds
+Count Sort Running time: 3.62382 milliseconds
+Heap Sort Running time: 1.6407019999999999 milliseconds
+Quick Sort Running time: 0.95787 milliseconds
+Radix Sort Running time: 3.603936 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 34
+*************************************************
+*************************************************
+Merge Sort Running time: 1.231862 milliseconds
+Insertion Sort Running time: 19.637204 milliseconds
+Bubble Sort Running time: 26.483346 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 1.749372 milliseconds
+Quick Sort Running time: 1.003026 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 35
+*************************************************
+*************************************************
+Merge Sort Running time: 1.266432 milliseconds
+Insertion Sort Running time: 21.856783999999998 milliseconds
+Bubble Sort Running time: 29.046678000000004 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 1.8633359999999999 milliseconds
+Quick Sort Running time: 1.0657780000000001 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 36
+*************************************************
+*************************************************
+Merge Sort Running time: 1.361036 milliseconds
+Insertion Sort Running time: 24.059152 milliseconds
+Bubble Sort Running time: 32.155848 milliseconds
+Count Sort Running time: 4.26774 milliseconds
+Heap Sort Running time: 1.958418 milliseconds
+Quick Sort Running time: 1.135922 milliseconds
+Radix Sort Running time: 4.302598 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 37
+*************************************************
+*************************************************
+Merge Sort Running time: 1.4190200000000002 milliseconds
+Insertion Sort Running time: 26.39327 milliseconds
+Bubble Sort Running time: 35.221958 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.060174 milliseconds
+Quick Sort Running time: 1.1852740000000002 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 38
+*************************************************
+*************************************************
+Merge Sort Running time: 1.490546 milliseconds
+Insertion Sort Running time: 29.001092 milliseconds
+Bubble Sort Running time: 38.693428 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.170562 milliseconds
+Quick Sort Running time: 1.244402 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 39
+*************************************************
+*************************************************
+Merge Sort Running time: 1.5882020000000001 milliseconds
+Insertion Sort Running time: 31.606292000000003 milliseconds
+Bubble Sort Running time: 42.077732 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.255916 milliseconds
+Quick Sort Running time: 1.321078 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 40
+*************************************************
+*************************************************
+Merge Sort Running time: 1.653386 milliseconds
+Insertion Sort Running time: 34.289456 milliseconds
+Bubble Sort Running time: 45.846652 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.414084 milliseconds
+Quick Sort Running time: 1.407194 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 41
+*************************************************
+*************************************************
+Merge Sort Running time: 1.70722 milliseconds
+Insertion Sort Running time: 37.029075999999996 milliseconds
+Bubble Sort Running time: 49.919414 milliseconds
+Count Sort Running time: 6.13203 milliseconds
+Heap Sort Running time: 2.49176 milliseconds
+Quick Sort Running time: 1.488114 milliseconds
+Radix Sort Running time: 6.1625 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 42
+*************************************************
+*************************************************
+Merge Sort Running time: 1.793862 milliseconds
+Insertion Sort Running time: 39.409112 milliseconds
+Bubble Sort Running time: 53.840160000000004 milliseconds
+Count Sort Running time: 5.964374 milliseconds
+Heap Sort Running time: 2.554512 milliseconds
+Quick Sort Running time: 1.5406140000000001 milliseconds
+Radix Sort Running time: 5.870008 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 43
+*************************************************
+*************************************************
+Merge Sort Running time: 1.8889900000000002 milliseconds
+Insertion Sort Running time: 43.381262 milliseconds
+Bubble Sort Running time: 58.578920000000004 milliseconds
+Count Sort Running time: 5.916214 milliseconds
+Heap Sort Running time: 2.663374 milliseconds
+Quick Sort Running time: 1.619578 milliseconds
+Radix Sort Running time: 5.870914 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 44
+*************************************************
+*************************************************
+Merge Sort Running time: 1.97606 milliseconds
+Insertion Sort Running time: 47.83802 milliseconds
+Bubble Sort Running time: 64.073754 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.773142 milliseconds
+Quick Sort Running time: 1.7061240000000002 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 45
+*************************************************
+*************************************************
+Merge Sort Running time: 2.0746700000000002 milliseconds
+Insertion Sort Running time: 51.731348000000004 milliseconds
+Bubble Sort Running time: 68.697978 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 2.92573 milliseconds
+Quick Sort Running time: 1.758766 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 46
+*************************************************
+*************************************************
+Merge Sort Running time: 2.1611219999999998 milliseconds
+Insertion Sort Running time: 64.40382 milliseconds
+Bubble Sort Running time: 74.054862 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 3.0266279999999997 milliseconds
+Quick Sort Running time: 1.813888 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 47
+*************************************************
+*************************************************
+Merge Sort Running time: 2.225304 milliseconds
+Insertion Sort Running time: 60.917902000000005 milliseconds
+Bubble Sort Running time: 80.586194 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 3.270722 milliseconds
+Quick Sort Running time: 1.9234660000000001 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 48
+*************************************************
+*************************************************
+Merge Sort Running time: 2.314376 milliseconds
+Insertion Sort Running time: 66.891146 milliseconds
+Bubble Sort Running time: 88.31091 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 3.417206 milliseconds
+Quick Sort Running time: 2.08354 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 49
+*************************************************
+*************************************************
+Merge Sort Running time: 2.42896 milliseconds
+Insertion Sort Running time: 80.98092 milliseconds
+Bubble Sort Running time: 99.340534 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 3.517246 milliseconds
+Quick Sort Running time: 2.107716 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 50
+*************************************************
+*************************************************
+Merge Sort Running time: 2.517748 milliseconds
+Insertion Sort Running time: 78.699732 milliseconds
+Bubble Sort Running time: 103.25818 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 3.6990160000000003 milliseconds
+Quick Sort Running time: 2.178908 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 51
+*************************************************
+*************************************************
+Merge Sort Running time: 2.572488 milliseconds
+Insertion Sort Running time: 82.173776 milliseconds
+Bubble Sort Running time: 107.61361199999999 milliseconds
+Count Sort Running time: 8.89945 milliseconds
+Heap Sort Running time: 3.831338 milliseconds
+Quick Sort Running time: 2.32315 milliseconds
+Radix Sort Running time: 8.895112000000001 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 52
+*************************************************
+*************************************************
+Merge Sort Running time: 2.73161 milliseconds
+Insertion Sort Running time: 89.589358 milliseconds
+Bubble Sort Running time: 116.73307400000002 milliseconds
+Count Sort Running time: 9.003354 milliseconds
+Heap Sort Running time: 3.961182 milliseconds
+Quick Sort Running time: 2.350474 milliseconds
+Radix Sort Running time: 8.92806 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 53
+*************************************************
+*************************************************
+Merge Sort Running time: 2.78473 milliseconds
+Insertion Sort Running time: 94.722032 milliseconds
+Bubble Sort Running time: 124.91092599999999 milliseconds
+Count Sort Running time: 9.06763 milliseconds
+Heap Sort Running time: 4.073524 milliseconds
+Quick Sort Running time: 2.503586 milliseconds
+Radix Sort Running time: 8.938312 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 54
+*************************************************
+*************************************************
+Merge Sort Running time: 2.832556 milliseconds
+Insertion Sort Running time: 100.678874 milliseconds
+Bubble Sort Running time: 131.187772 milliseconds
+Count Sort Running time: 8.904124 milliseconds
+Heap Sort Running time: 4.1680340000000005 milliseconds
+Quick Sort Running time: 2.518272 milliseconds
+Radix Sort Running time: 8.788348000000001 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 55
+*************************************************
+*************************************************
+Merge Sort Running time: 2.8851500000000003 milliseconds
+Insertion Sort Running time: 106.21366599999999 milliseconds
+Bubble Sort Running time: 138.803196 milliseconds
+Count Sort Running time: 9.017182 milliseconds
+Heap Sort Running time: 4.277944 milliseconds
+Quick Sort Running time: 2.671528 milliseconds
+Radix Sort Running time: 8.951664 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 56
+*************************************************
+*************************************************
+Merge Sort Running time: 3.04284 milliseconds
+Insertion Sort Running time: 112.32676599999999 milliseconds
+Bubble Sort Running time: 149.814654 milliseconds
+Count Sort Running time: 8.994722 milliseconds
+Heap Sort Running time: 4.461956 milliseconds
+Quick Sort Running time: 2.7867319999999998 milliseconds
+Radix Sort Running time: 8.976125999999999 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 57
+*************************************************
+*************************************************
+Merge Sort Running time: 3.2938 milliseconds
+Insertion Sort Running time: 119.995118 milliseconds
+Bubble Sort Running time: 161.405802 milliseconds
+Count Sort Running time: 10.328292000000001 milliseconds
+Heap Sort Running time: 4.68502 milliseconds
+Quick Sort Running time: 2.964068 milliseconds
+Radix Sort Running time: 10.188531999999999 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 58
+*************************************************
+*************************************************
+Merge Sort Running time: 3.373908 milliseconds
+Insertion Sort Running time: 132.40695 milliseconds
+Bubble Sort Running time: 174.831056 milliseconds
+Count Sort Running time: 11.578416 milliseconds
+Heap Sort Running time: 4.96931 milliseconds
+Quick Sort Running time: 2.998638 milliseconds
+Radix Sort Running time: 11.433361999999999 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 59
+*************************************************
+*************************************************
+Merge Sort Running time: 3.5006999999999997 milliseconds
+Insertion Sort Running time: 142.776966 milliseconds
+Bubble Sort Running time: 187.255716 milliseconds
+Count Sort Running time: 11.481666 milliseconds
+Heap Sort Running time: 5.114269999999999 milliseconds
+Quick Sort Running time: 3.156232 milliseconds
+Radix Sort Running time: 11.395168 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 60
+*************************************************
+*************************************************
+Merge Sort Running time: 3.66807 milliseconds
+Insertion Sort Running time: 150.911046 milliseconds
+Bubble Sort Running time: 198.02331999999998 milliseconds
+Count Sort Running time: 11.57732 milliseconds
+Heap Sort Running time: 5.313302 milliseconds
+Quick Sort Running time: 3.30224 milliseconds
+Radix Sort Running time: 11.440372 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 61
+*************************************************
+*************************************************
+Merge Sort Running time: 3.770066 milliseconds
+Insertion Sort Running time: 162.398196 milliseconds
+Bubble Sort Running time: 213.34285799999998 milliseconds
+Count Sort Running time: 11.498118 milliseconds
+Heap Sort Running time: 5.4859160000000005 milliseconds
+Quick Sort Running time: 3.421974 milliseconds
+Radix Sort Running time: 11.36055 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 62
+*************************************************
+*************************************************
+Merge Sort Running time: 3.907728 milliseconds
+Insertion Sort Running time: 172.629548 milliseconds
+Bubble Sort Running time: 223.880338 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 5.761718 milliseconds
+Quick Sort Running time: 3.5202979999999995 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 63
+*************************************************
+*************************************************
+Merge Sort Running time: 3.906918 milliseconds
+Insertion Sort Running time: 176.334286 milliseconds
+Bubble Sort Running time: 230.10487600000002 milliseconds
+Count Sort Running time: 11.598158 milliseconds
+Heap Sort Running time: 5.601692 milliseconds
+Quick Sort Running time: 3.571176 milliseconds
+Radix Sort Running time: 11.690044 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 64
+*************************************************
+*************************************************
+Merge Sort Running time: 4.090738 milliseconds
+Insertion Sort Running time: 189.185906 milliseconds
+Bubble Sort Running time: 249.58991999999998 milliseconds
+Count Sort Running time: 12.31308 milliseconds
+Heap Sort Running time: 6.038476 milliseconds
+Quick Sort Running time: 3.732062 milliseconds
+Radix Sort Running time: 12.187386 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 65
+*************************************************
+*************************************************
+Merge Sort Running time: 4.316712 milliseconds
+Insertion Sort Running time: 200.013638 milliseconds
+Bubble Sort Running time: 264.87073799999996 milliseconds
+Count Sort Running time: 12.534904000000001 milliseconds
+Heap Sort Running time: 6.27017 milliseconds
+Quick Sort Running time: 3.937388 milliseconds
+Radix Sort Running time: 12.419128 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 66
+*************************************************
+*************************************************
+Merge Sort Running time: 4.453564 milliseconds
+Insertion Sort Running time: 216.11585599999998 milliseconds
+Bubble Sort Running time: 282.67231000000004 milliseconds
+Count Sort Running time: 12.603044 milliseconds
+Heap Sort Running time: 6.368876 milliseconds
+Quick Sort Running time: 4.0231699999999995 milliseconds
+Radix Sort Running time: 12.383794 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 67
+*************************************************
+*************************************************
+Merge Sort Running time: 4.601001999999999 milliseconds
+Insertion Sort Running time: 226.398182 milliseconds
+Bubble Sort Running time: 294.46196599999996 milliseconds
+Count Sort Running time: 15.032864 milliseconds
+Heap Sort Running time: 6.623602 milliseconds
+Quick Sort Running time: 4.183006000000001 milliseconds
+Radix Sort Running time: 14.713764000000001 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 68
+*************************************************
+*************************************************
+Merge Sort Running time: 4.664708 milliseconds
+Insertion Sort Running time: 230.95955800000002 milliseconds
+Bubble Sort Running time: 305.444908 milliseconds
+Count Sort Running time: 15.039588 milliseconds
+Heap Sort Running time: 6.7843919999999995 milliseconds
+Quick Sort Running time: 4.2483319999999996 milliseconds
+Radix Sort Running time: 14.663458 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 69
+*************************************************
+*************************************************
+Merge Sort Running time: 4.749442 milliseconds
+Insertion Sort Running time: 236.479806 milliseconds
+Bubble Sort Running time: 319.317436 milliseconds
+Count Sort Running time: 15.824031999999999 milliseconds
+Heap Sort Running time: 6.954432 milliseconds
+Quick Sort Running time: 4.432822 milliseconds
+Radix Sort Running time: 15.616512 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 70
+*************************************************
+*************************************************
+Merge Sort Running time: 4.947376 milliseconds
+Insertion Sort Running time: 248.205662 milliseconds
+Bubble Sort Running time: 336.781692 milliseconds
+Count Sort Running time: 15.727806000000001 milliseconds
+Heap Sort Running time: 7.088088000000001 milliseconds
+Quick Sort Running time: 4.439926 milliseconds
+Radix Sort Running time: 15.521098 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 71
+*************************************************
+*************************************************
+Merge Sort Running time: 5.172252 milliseconds
+Insertion Sort Running time: 271.03076 milliseconds
+Bubble Sort Running time: 358.449412 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 7.422494 milliseconds
+Quick Sort Running time: 4.5192239999999995 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 72
+*************************************************
+*************************************************
+Merge Sort Running time: 5.282164 milliseconds
+Insertion Sort Running time: 286.932946 milliseconds
+Bubble Sort Running time: 378.551674 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 7.558918 milliseconds
+Quick Sort Running time: 4.702568 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 73
+*************************************************
+*************************************************
+Merge Sort Running time: 5.394888 milliseconds
+Insertion Sort Running time: 302.046156 milliseconds
+Bubble Sort Running time: 396.84371999999996 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 7.70731 milliseconds
+Quick Sort Running time: 4.82521 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 74
+*************************************************
+*************************************************
+Merge Sort Running time: 5.493594 milliseconds
+Insertion Sort Running time: 309.473706 milliseconds
+Bubble Sort Running time: 412.37974199999996 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 8.03814 milliseconds
+Quick Sort Running time: 4.956436 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 75
+*************************************************
+*************************************************
+Merge Sort Running time: 5.60851 milliseconds
+Insertion Sort Running time: 325.28472 milliseconds
+Bubble Sort Running time: 430.73277399999995 milliseconds
+Count Sort Running time: 17.246056 milliseconds
+Heap Sort Running time: 8.235692 milliseconds
+Quick Sort Running time: 5.2950859999999995 milliseconds
+Radix Sort Running time: 16.93387 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 76
+*************************************************
+*************************************************
+Merge Sort Running time: 5.83601 milliseconds
+Insertion Sort Running time: 340.148162 milliseconds
+Bubble Sort Running time: 456.40325599999994 milliseconds
+Count Sort Running time: 18.137502 milliseconds
+Heap Sort Running time: 8.320904 milliseconds
+Quick Sort Running time: 5.417156 milliseconds
+Radix Sort Running time: 17.899369999999998 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 77
+*************************************************
+*************************************************
+Merge Sort Running time: 5.981112 milliseconds
+Insertion Sort Running time: 352.467012 milliseconds
+Bubble Sort Running time: 476.44839199999996 milliseconds
+Count Sort Running time: 18.051862 milliseconds
+Heap Sort Running time: 8.600902000000001 milliseconds
+Quick Sort Running time: 5.709744 milliseconds
+Radix Sort Running time: 17.878294 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 78
+*************************************************
+*************************************************
+Merge Sort Running time: 6.1395159999999995 milliseconds
+Insertion Sort Running time: 369.738388 milliseconds
+Bubble Sort Running time: 506.00032799999997 milliseconds
+Count Sort Running time: 18.13798 milliseconds
+Heap Sort Running time: 8.80537 milliseconds
+Quick Sort Running time: 5.75428 milliseconds
+Radix Sort Running time: 17.760848 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 79
+*************************************************
+*************************************************
+Merge Sort Running time: 6.2706 milliseconds
+Insertion Sort Running time: 386.267186 milliseconds
+Bubble Sort Running time: 521.5487 milliseconds
+Count Sort Running time: 19.164848 milliseconds
+Heap Sort Running time: 8.879852 milliseconds
+Quick Sort Running time: 6.0337060000000005 milliseconds
+Radix Sort Running time: 19.151736 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 80
+*************************************************
+*************************************************
+Merge Sort Running time: 6.557656 milliseconds
+Insertion Sort Running time: 409.054756 milliseconds
+Bubble Sort Running time: 551.0643 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 9.159946 milliseconds
+Quick Sort Running time: 6.097174 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 81
+*************************************************
+*************************************************
+Merge Sort Running time: 6.678724 milliseconds
+Insertion Sort Running time: 424.80626199999995 milliseconds
+Bubble Sort Running time: 572.992706 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 9.462548 milliseconds
+Quick Sort Running time: 6.285334000000001 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 82
+*************************************************
+*************************************************
+Merge Sort Running time: 6.88343 milliseconds
+Insertion Sort Running time: 447.40553 milliseconds
+Bubble Sort Running time: 601.088524 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 9.805394 milliseconds
+Quick Sort Running time: 6.3366880000000005 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 83
+*************************************************
+*************************************************
+Merge Sort Running time: 6.97198 milliseconds
+Insertion Sort Running time: 469.62962200000004 milliseconds
+Bubble Sort Running time: 634.349156 milliseconds
+Count Sort Running time: 21.722698 milliseconds
+Heap Sort Running time: 10.171748 milliseconds
+Quick Sort Running time: 6.709432 milliseconds
+Radix Sort Running time: 21.677732 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 84
+*************************************************
+*************************************************
+Merge Sort Running time: 7.2206019999999995 milliseconds
+Insertion Sort Running time: 488.09514 milliseconds
+Bubble Sort Running time: 658.839082 milliseconds
+Count Sort Running time: 22.130012 milliseconds
+Heap Sort Running time: 10.471678 milliseconds
+Quick Sort Running time: 6.8475719999999995 milliseconds
+Radix Sort Running time: 21.739196 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 85
+*************************************************
+*************************************************
+Merge Sort Running time: 7.46255 milliseconds
+Insertion Sort Running time: 512.760496 milliseconds
+Bubble Sort Running time: 686.3962180000001 milliseconds
+Count Sort Running time: 22.131155999999997 milliseconds
+Heap Sort Running time: 10.636712 milliseconds
+Quick Sort Running time: 7.142926 milliseconds
+Radix Sort Running time: 21.730566 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 86
+*************************************************
+*************************************************
+Merge Sort Running time: 7.741738 milliseconds
+Insertion Sort Running time: 544.060612 milliseconds
+Bubble Sort Running time: 727.523804 milliseconds
+Count Sort Running time: 22.398519999999998 milliseconds
+Heap Sort Running time: 11.04083 milliseconds
+Quick Sort Running time: 7.203818 milliseconds
+Radix Sort Running time: 21.97194 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 87
+*************************************************
+*************************************************
+Merge Sort Running time: 7.952214 milliseconds
+Insertion Sort Running time: 562.48126 milliseconds
+Bubble Sort Running time: 750.286102 milliseconds
+Count Sort Running time: 22.292424 milliseconds
+Heap Sort Running time: 11.344862000000001 milliseconds
+Quick Sort Running time: 7.54118 milliseconds
+Radix Sort Running time: 22.035504 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 88
+*************************************************
+*************************************************
+Merge Sort Running time: 8.214901999999999 milliseconds
+Insertion Sort Running time: 591.27016 milliseconds
+Bubble Sort Running time: 789.841604 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 11.515378 milliseconds
+Quick Sort Running time: 7.544517999999999 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 89
+*************************************************
+*************************************************
+Merge Sort Running time: 8.462430000000001 milliseconds
+Insertion Sort Running time: 632.398128 milliseconds
+Bubble Sort Running time: 836.691856 milliseconds
+Count Sort Running time: 22.863484 milliseconds
+Heap Sort Running time: 11.937714 milliseconds
+Quick Sort Running time: 7.7664860000000004 milliseconds
+Radix Sort Running time: 22.73202 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 90
+*************************************************
+*************************************************
+Merge Sort Running time: 8.457756 milliseconds
+Insertion Sort Running time: 643.574906 milliseconds
+Bubble Sort Running time: 852.4275299999999 milliseconds
+Count Sort Running time: 22.723580000000002 milliseconds
+Heap Sort Running time: 11.906194000000001 milliseconds
+Quick Sort Running time: 7.998991999999999 milliseconds
+Radix Sort Running time: 23.07825 milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 91
+*************************************************
+*************************************************
+Merge Sort Running time: 8.76007 milliseconds
+Insertion Sort Running time: 668.439006 milliseconds
+Bubble Sort Running time: 893.3418760000001 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 12.351036 milliseconds
+Quick Sort Running time: 8.047486000000001 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 92
+*************************************************
+*************************************************
+Merge Sort Running time: 8.990956 milliseconds
+Insertion Sort Running time: 699.382734 milliseconds
+Bubble Sort Running time: 930.451584 milliseconds
+Count Sort Running time: inf milliseconds
+Heap Sort Running time: 12.565707999999999 milliseconds
+Quick Sort Running time: 8.343982 milliseconds
+Radix Sort Running time: inf milliseconds
+Best is Quick Sort
+Best from algorithm is Quick Sort
+number of correct cases: 93
+*************************************************

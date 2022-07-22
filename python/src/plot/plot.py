@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 
+
 def plotresults(timebubblearray, timeinsertionarray, timemergearray, timecountarray, timeheaparray, timequickarray,
-                timeradixarray):
-    plt.xlim(1, 14)
-    plt.ylim(0, 500, 5)
+                timeradixarray,name):
+    plt.ylim(0, 20, 0.1)
     plt.xlabel('Array size 2^n')
     plt.ylabel('Time in milliseconds')
     plt.plot(timebubblearray, label="bubble sort")
@@ -14,5 +14,5 @@ def plotresults(timebubblearray, timeinsertionarray, timemergearray, timecountar
     plt.plot(timequickarray, label="quick sort")
     plt.plot(timeradixarray, label="radix sort")
     plt.legend()
-    plt.show()
-  
+    plt.savefig(name + ".png")
+    plt.close()
